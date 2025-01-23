@@ -26,7 +26,7 @@ python transaction_coordinator.py
 
 
 ### After running overview:
-##Note: After any prepare message is sent from the transaction coordinator, always check participants server in the terminal to respond "1" for "yes" and "2" for "no", to select if the participant wants to respond as "yes" to commit the transaction or "no" to abort the transaction.
+### Note: After any prepare message is sent from the transaction coordinator, always check participants server in the terminal to respond "1" for "yes" and "2" for "no", to select if the participant wants to respond as "yes" to commit the transaction or "no" to abort the transaction.
 
 ### Part 1:
 -Select option 1 from the menu : The coordinator fails before sending the prepare message and participants respond with "No message recieved, co-ordinator may be down"
